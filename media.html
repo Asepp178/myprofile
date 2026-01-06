@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Media</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <h1>MySpotify</h1>
+    <a href="index.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="project.html">Project</a>
+    <a href="media.html" class="active">Media</a>
+    <a href="informasi.html">Informasi</a>
+    <a href="kontak.html">Kontak</a>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <!-- HEADER -->
+    <div class="header">
+      <h2>Your 2025 Wrapped</h2>
+      <p class="muted">Audio • Image • Video • Document</p>
+    </div>
+
+    <!-- ===== AUDIO WRAPPED ===== -->
+    <div class="section">
+      <h3>Top Songs</h3>
+      <div class="grid">
+
+        <div class="card">
+          <span class="rank">#1</span>
+          <img src="p1 (1).jpeg" alt="Album 1">
+          <h4>Let Down</h4>
+          <p class="muted">Radiohead</p>
+          <audio controls src="Radiohead - Let Down.mp3"></audio>
+        </div>
+
+        <div class="card">
+          <span class="rank">#2</span>
+          <img src="p1 (2).jpeg" alt="Album 2">
+          <h4>Fake Plastic Trees</h4>
+          <p class="muted">Radiohead</p>
+          <audio controls src="Fake Plastic Trees - Radiohead Lirik Terjemahan Indonesia.mp3"></audio>
+        </div>
+
+        <div class="card">
+          <span class="rank">#3</span>
+          <img src="p1 (3).jpeg" alt="Album 3">
+          <h4>High And Dry</h4>
+          <p class="muted">Radiohead</p>
+          <audio controls src="Radiohead - High and Dry.mp3"></audio>
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- ===== VIDEO ===== -->
+    <div class="section">
+      <h3>Video</h3>
+      <div class="card">
+        <video controls src="Radiohead - Creep.mp4"></video>
+      </div>
+    </div>
+
+    <!-- ===== PDF ===== -->
+    <div class="section">
+      <h3>Document</h3>
+      <div class="card">
+        <iframe src="cv.pdf" height="450"></iframe>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
